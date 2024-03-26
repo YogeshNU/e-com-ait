@@ -1,0 +1,22 @@
+.cardtitle{
+    
+    border : 1px solid black
+}
+
+h5{
+    color: black;
+}
+.card-image:hover{
+cursor: pointer;
+transform: scale(1.1);
+
+}
+
+.dec{
+    text-decoration: none;
+    color: red;
+}
+
+.back-g{
+    background-color: rgb(62, 189, 146);
+}
