@@ -9,9 +9,9 @@ const Routing = () => {
         <div>
              <Routes>
                 <Route path="/" element={<Products />}/>
-                <Route path="/cart" element={<Cart />}/>
+                <Route exact path="/cart" element={<Cart />}/>
                 <Route path="/products" element={<Products />}/>
-                <Route path="/product/:id" element={<Product />}/>
+                <Route path="/products/:id" element={<Product />}/>
              </Routes>
         </div>
     )

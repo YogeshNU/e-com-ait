@@ -31,10 +31,10 @@ const Products = () => {
                                     <img class="card-img-top card-image" src={item.image} alt={item.title}
                                     style={{height:"200px", width:"160px",}}
                                     />
-                                    <h6 className="text-dark dec" >{item.title}</h6>
+                                    <h6 className="dash" >{item.title}</h6>
                                     <h6 className="text-dark">{item.price}</h6>
                                     </Link>
-                                </div>
+                                </div>  
                             </div>
                         ))
                     ) : <p>Loading ...</p>

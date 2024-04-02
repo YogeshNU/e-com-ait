@@ -15,6 +15,7 @@ const Product = () => {
 
     useEffect(() => {
         getProduct()
+        alert("product page opened")
     }, [])
 
     const getProduct = async () => {
